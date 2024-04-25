@@ -56,7 +56,7 @@
   max-width: 635px;
   font-size: 62px;
   line-height: 76px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 128px 0 0;
 }
 
@@ -93,7 +93,7 @@
 /*----------------Aqui empieza main----------------*/
 
 .staff {
-  background-image:  url("../images/staff_picks_background.jpg");
+  background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
   background-size: cover;
 
@@ -132,10 +132,10 @@
 .card {
   background-color: #ffffff;
   border-radius: 6px;
-  padding: 32px 40px 20px 40px;
+  padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   height: 420px;
-  width: 360px;  
+  width: 360px;
 }
 
 .card__content {

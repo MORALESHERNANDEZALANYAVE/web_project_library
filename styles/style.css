@@ -320,7 +320,6 @@
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
-  font-weight: 500;
   line-height: 52px;
   font-weight: bold;
 }
@@ -375,14 +374,13 @@
 .footer__column {
   display: flex;
   justify-content: space-between;
-  
 }
 
-.footer__column_content_hours {
+.footer__column-content-hours {
   margin-right: 80px;
 }
 
-.footer__column_content_social {
+.footer__column-content-social {
 
 }
 

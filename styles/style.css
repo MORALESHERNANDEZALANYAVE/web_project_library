@@ -364,16 +364,15 @@
 
 .footer__columns {
   display: flex;
+  justify-content: flex-end;
+  gap: 80px;
 
 }
 
 .footer__column {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .footer__column-content-hours {
-  margin-right: 80px;
 }
 
 .footer__column-content-social {

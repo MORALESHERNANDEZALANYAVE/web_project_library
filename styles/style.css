@@ -96,7 +96,6 @@
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
   background-size: cover;
-
 }
 
 .staff__title {
@@ -165,7 +164,6 @@
   color: #838383;
   margin-top: auto;
 }
-
 
 .events {
   padding: 100px 0 120px 80px;
@@ -302,8 +300,6 @@
   margin: 0;
 }
 
-
-
 .membership {
   padding: 100px 0 140px;
   background-color: #057bf2;
@@ -316,7 +312,7 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .membership__steps {
@@ -325,13 +321,12 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .step {
   flex-basis: 220px;
   padding: 0 40px;
-  
-
 }
 
 .step__title {
@@ -353,30 +348,26 @@
 
 /*----------------Aqui empieza footer----------------*/
 
-
 .footer {
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 80px;
   color: #ffffff;
-  
 }
 
 .footer__columns {
   display: flex;
-  justify-content: flex-end;
-  gap: 80px;
-
 }
 
 .footer__column {
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -387,7 +378,7 @@
 
 .footer__column-heading {
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -397,23 +388,24 @@
 }
 
 .footer__list-item {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   text-decoration: none;
   color: #ffffff;
 }
 
-.footer__column-link{
+.footer__column-link {
   text-decoration: none;
   color: #ffffff;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   height: 16px;
   width: 16px;
-  padding-right: 10px;
 }
 
-.footer__copyright{
-  margin: 0;
-  padding-top: 100px;
+.footer__copyright {
+  margin: 100px 0 0 0;
 }
